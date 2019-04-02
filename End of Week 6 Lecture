@@ -10,3 +10,46 @@ Right now I believe I'll pproach the rotation cypher by testing for common words
 As for the substitution cypher
   Start easy (as with everything)
   Gaurentee the pass! Don't get fancy
+
+Cheatsheet for Arrays::
+
+/* Main function of the C program. */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    
+    char array[] = "Hello whats doin"; // char = NUMBERS AND CHARACTERS
+        //the array is literally whats in that^
+    
+    printf("%c\n", array[8]); // This prints the 8th figure of the array which is a (this is because the counting starts from 0. %c is used for caracters)
+    
+    int i = 0; 
+    
+    while(i<10)
+    {
+        printf("%c", array[i]); // This will print the whole array
+        
+        if(array[i] == 'a') // If a certain carachter or number was to be found in the array, this will trigger the if statement
+        {
+            printf("We found the A!");
+        }
+        
+        i++;
+    }
+    
+    printf("%s\n", array); // This just prints the whole array or "String". %s is used for the whole string
+    
+    char x = 0;
+    
+  char test[26]; // This just creates space for 26 COMPLETLY RANDOM chars.
+  
+  
+  test[2] = 15; // This will force the 2nd char of the array to = 15
+  
+
+  
+  printf("%d", test[2]); // This will print the 2nd char of the array. If not initialised, it will be a random number
+}
