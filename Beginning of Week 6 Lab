@@ -1,0 +1,9 @@
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    printf("The cypher translates to:");
+    return 0;
+}
